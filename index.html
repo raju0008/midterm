@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/min/main.css">
+     </head>
+<body>
+    <div class="header">
+        <div class="logo"><img src="images/prototype.png" alt="" height="65px"></div>
+        
+            <nav><ul>
+                    <li><a class="active" href="#Home">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="events.html">Events and Price</a></li>
+                    <li><a href="join.html">Carriers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul></nav>
+    </div>
+     
+
+   
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="images/1457bbd3ec097ad.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/71380_rings_couple_wedding_silver_flowers_80327_2560x1600-1920x600-c.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/valentine-s-day-lovely-couples-wallpaper-1920x600-13296_57.jpg" style="width:100%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+    </div>
+    <div class="grid-container">
+            <div class="grid-item"><h6>WEDDING PHOTOGRAPHY</h1><p>explore</p><img src="images/small26083.jpg" alt=""></div>
+            <div class="grid-item"><h6>MATERNITY</h1><p>explore</p><img src="images/maternity.jpg" alt=""height="200px"></div>
+            <div class="grid-item"><h6>OUTDOOR SHOOTING</h1><p>explore</p><img src="images/small131094966.jpg" alt=""></div>
+            <div class="grid-item"><h6>PRE-WEDDING</h1><p>explore</p><img src="images/affair-anniversary-asad-1024960.jpg" alt="" height="200px"></div>
+            <div class="grid-item"><h6>NOIR MEMOIR</h1><p>explore</p><img src="images/noir memoir.jpg" alt="" height="200px"></div>
+            <div class="grid-item"><h6>BAPTISM</h1><p>explore</p><img src="images/baptism.jpeg" alt="" height="200px"></div>  
+                  
+            
+          </div>
+          
+<div><footer>
+    <h8>ADDRESS</h8>
+    <p>1275 york street,ottawa,ontario,canada
+        K2B8E3
+    </p>
+    <h11>673255411------------cattzeye123@gmail.com</h11>
+    <div class="img"><img src="images/instagram_PNG8.png" alt="" height="20px" width="20px">
+    <img src="images/fb.png" alt=""height="20px" width="20px">
+    <img src="images/twitter_PNG1.png" alt=""height="20px" width="20px"></div>
+</footer>
+    
+</div>
+
+   
+</body>
+</html>
