@@ -1,0 +1,27 @@
+{
+  "name": "raju0008.github.io",
+  "version": "1.0.0",
+  "description": "midtermproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raju0008/raju0008.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raju0008/raju0008.github.io/issues"
+  },
+  "homepage": "https://github.com/raju0008/raju0008.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.9",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
